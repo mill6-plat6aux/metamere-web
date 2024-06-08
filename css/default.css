@@ -1,0 +1,81 @@
+body {
+    background-color: "#DADADA";
+    color: black;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+    overscroll-behavior: none;
+    user-select: none;
+}
+
+img {
+    pointer-events: none;
+}
+
+video.background {
+    position: fixed;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 50%;
+	object-fit: cover;
+	transform: translate(-50%, 0);
+}
+
+.title {
+    height: 320px;
+
+    background-image: url('../images/logo.svg');
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+
+    text-align: right;
+    white-space: nowrap;
+
+    padding: 4px;
+}
+.title > div {
+    display: inline-block;
+    vertical-align: middle;
+    height: 32px;
+    margin: 8px 4px;
+}
+.lang {
+    line-height: 32px;
+}
+.github {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url('../images/github.svg');
+    background-position: center;
+    background-size: 24px;
+    background-repeat: no-repeat;
+}
+.subtitle {
+    position: absolute;
+    left: 0;
+    top: 210px;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+.introduction {
+    margin: 8px auto;
+    max-width: 36em;
+    line-height: 1.6em;
+    color: rgba(0, 0, 0, 0.6);
+}
+p {
+    margin: 1.2em 0;
+}
+.footer {
+    margin: 64px 0 64px 0;
+    width: 100%;
+    font-size: xx-small;
+    text-align: center;
+}

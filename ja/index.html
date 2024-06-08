@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>metamere</title>
+        <meta name="robots" content="noarchive"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' https://fonts.googleapis.com/ 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com/; img-src 'self'"/>
+        <meta http-equiv="Content-Language" content="ja"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+        <meta name="description" content="metamere: Ultra-lightweight Blockchain"/>
+        <link rel="icon" type="image/svg+xml" href="../images/icon.svg"/>
+        <link rel="stylesheet" type="text/css" href="../css/destyle.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/default.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet"/>
+        <style >
+            body {
+                font-family: "Noto Sans JP", sans-serif;
+                font-weight: 300;
+            }
+        </style>
+    </head>
+    <body>
+        <video class="background" muted autoplay loop playsinline>
+            <source src="../images/background.mp4" type="video/mp4"/>
+        </video>
+        <div class="title">
+            <div class="subtitle">The Ultra-lightweight Blockchain</div>
+            <div class="lang">
+                <a href="../en/index.html">EN</a>
+            </div>
+            <div class="link">
+                <a class="github" href="https://github.com/mill6-plat6aux/metamere"></a>
+            </div>
+        </div>
+        <div class="contents">
+            <div class="introduction">
+                <p>ブロックチェーンとはデータ要素のハッシュ値を連鎖的に繋いで、その鎖状のデータの改竄コストがデータの生成コストを上回るように設計し、耐改竄性をもたせたストレージである。このようなストレージは、いわゆるCRUDを実現する一般的なデータベースとは異なり、通常のやり方ではデータの更新や削除を行うことができない。さらに前述の設計を実現するために止めどなくデータの登録がが行われる必要がある。そのため用途としては、取引台帳のようなものやアクセスログのようなものに限定されるであろう。このような特性は、Bitcoinに代表されるブロックチェーンの出自を辿れば容易に想像できると思われるが、暗号通貨の熱狂に便乗する形で耐改竄性という言葉をマーケッターが濫用したこともあって、本来RDBでシンプルかつセキュアに設計できるストレージをわざわざブロックチェーンで置き換えるようなことがしばしば行われてきた。現在は、失敗事例をいくつか乗り越え、また最も著名なブロックチェーンの性能がストレージとして著しく劣っていたせいもあり、ブロックチェーンを無理やりユーザに押し付ける惨事は少なくなってきている。</p>
+                <p>というわけで、プログラマーがブロックチェーンを穏やかに研究する状況がようやく訪れたわけではあるが、まず最初にマーケッターが言い訳として各所で喚き散らしている嘘を葬り去っておこう。前述したとおり、ブロックチェーンの最も著名なプロダクトは一般的なRDBと比較して著しく性能が劣っている。これに対して、「そもそもブロックチェーンとRDBを比較するのが間違っている。性能の違いはブロックチェーンによって得られる機能とのトレードオフでもある。」というような弁明がマーケッターによってまことしやかに行われていたりする。そもそもRDBで実現できるところをわざわざブロックチェーンで置き換えるようにけしかけたのはマーケッターなので、これはもはやユーザとシステムエンジニアを巻き込んだコントである。また同プロダクトのコミュニティ自身が、たいして新しくもない既存の技術を新しい造語によって置き換え、エコシステムを構築する戦略を採ったこともあって、人材の確保や運用環境の整備など膨大なコスト増加を招いた。もうおわかりかもしれないが、マーケッターはこの状況をむしろ積極的に利用して金を稼ごうとしていたわけである。</p>
+                <p>ブロックチェーンの最も著名なプロダクトはオープンソースであった。しかしマーケッターに雇われるようなコーダーはこれらのソースを読もうともしない。コミュニティがつくった造語やAPIを必死に読み込んで、彼らのエコシステムの一要素に成り果てるわけだ。事態は我々の無関心にも責任がある。前述のマーケッターの戯言はソースコードを読めば一蹴できる。性能が劣っているのは単純にソースコードがそのように書かれているからだ。特に新しく習得しなければならない概念なども含まれてはいない。Satoshi Nakamotoの論文にある明快さと衝撃を超えるものはそこには一切含まれてはいないのだ。</p>
+                </p>WHATWGの仕様書を読んだこともないマーケッターがWebのバージョンを勝手にインクリメントするなど唾棄すべき状況は少なからず続いている。市場を生み出すのは結構なことだが、我々の生活に関わるシステムまで侵食されるのは勘弁だ。我々プログラマは明快なソースコードからいくらかの知識を身につけて、それらをあるべき姿へ近づける努力を惜しんではならない。</p>
+            </div>
+        </div>
+        <div class="footer">&copy; Takuro Okada</div>
+    </body>
+</html>
