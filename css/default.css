@@ -1,5 +1,5 @@
 body {
-    background-color: "#DADADA";
+    background-color: #DADADA;
     color: black;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -7,6 +7,7 @@ body {
     background-position: center;
     overscroll-behavior: none;
     user-select: none;
+    -webkit-user-select: none;
 }
 
 img {
